@@ -1,0 +1,4 @@
+[
+  { "name": "walkie", "aliases": ["语音助手"], "path": "C:/Users/you/Documents/walkie" },
+  { "name": "my-app", "aliases": ["我的应用"], "path": "C:/Users/you/Documents/my-app" }
+]

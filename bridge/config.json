@@ -1,0 +1,42 @@
+{
+  "voice": "marin",
+  "geminiVoice": "Kore",
+  "ttsInstructions": "用自然、亲切、简洁的普通话说，语速稍快。",
+  "models": {
+    "transcribe": "gpt-transcribe",
+    "classify": "gpt-6-luna",
+    "classifyEffort": "none",
+    "tts": "gpt-4o-mini-tts",
+    "geminiHear": ["gemini-3.8-flash", "gemini-3.1-flash-lite"],
+    "geminiTts": "gemini-3.8-flash-tts"
+  },
+  "timeoutsMs": {
+    "transcribeBase": 3000,
+    "classify": 3500,
+    "speakFirstByte": 3000,
+    "speakIdle": 3000,
+    "geminiHear": 8000,
+    "geminiSpeak": 10000
+  },
+  "transcribeClipFraction": 0.1,
+  "trimStartMs": 250,
+  "minSpeechMs": 300,
+  "cooldownMs": 300000,
+  "loudness": {
+    "highpassHz": 300,
+    "thresholdDb": -34,
+    "ratio": 12,
+    "attackMs": 1,
+    "releaseMs": 40,
+    "makeupDb": 27.5,
+    "ceiling": 0.98,
+    "lookaheadMs": 5
+  },
+  "claude": {
+    "command": ["claude"],
+    "model": "claude-opus-5-5",
+    "idleMinutes": 60,
+    "approvalTimeoutSec": 55,
+    "prewarm": true
+  }
+}

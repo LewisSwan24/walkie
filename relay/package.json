@@ -1,0 +1,17 @@
+{
+  "name": "walkie-relay",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A blind relay for walkie: forwards sealed frames between a PC and a device that both dial out to it.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node bin/relay.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}

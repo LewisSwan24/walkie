@@ -1,0 +1,7 @@
+node_modules/
+firmware/.pio/
+firmware/host/build/
+bridge/takes/
+*.log
+bridge/snaps/
+bridge/projects.json
